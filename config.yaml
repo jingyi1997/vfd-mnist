@@ -1,0 +1,19 @@
+dataset_params:
+    root: './data/mnist'
+
+model_params:
+    img_size: [1, 32, 32]
+    latent_dim: 32
+    num_classes: 10
+
+train_params:
+    batch_size: 64
+    lr: 0.0005
+    beta: 1
+    epochs: 200
+    reg_anneal: 10000
+    checkpoint_freq: 5
+    print_freq: 200
+    aug_var: 2
+    aug_num: 5
+    
